@@ -2,7 +2,7 @@
 
 - Consider the following code :
 
-```rs
+```rust
 fn main() {
  let x = 5;
  println!("The value of x is {}", x); // 5
@@ -14,7 +14,7 @@ fn main() {
 - In Rust, all variables are considered to be immutable.
 - To change them during run-time, we use the keyword _"mut"_ :
 
-```rs
+```rust
 fn main() {
  let mut x = 5;
  println!("The value of x is {}", x); // 5
@@ -39,7 +39,7 @@ fn main() {
 
 - Consider the code :
 
-```rs
+```rust
 fn main() {
     let x = 5;
     let x = 12; // Variable is being shadowed
@@ -49,7 +49,7 @@ fn main() {
 
 - From the following, the first variable is being shadowed.
 - By doing this, we also change the data type during run time. For example :
-```rs
+```rust
 fn main() {
     let y = 12; // Number
     let y = "John"; // String
