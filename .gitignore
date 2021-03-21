@@ -1,0 +1,6 @@
+# cargo
+target
+*.lock
+
+# misc
+*.exe
