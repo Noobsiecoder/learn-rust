@@ -7,9 +7,9 @@
   - [x] Guessing Game
   - [x] Variables and Mutability
 - 22/03/2021 ⏰
-  - [ ] Data types
-  - [ ] Functions
-  - [ ] Comments
+  - [x] Data types
+  - [x] Functions
+  - [x] Control flow
 - 23/03/2021 ⌚
   - [ ] Ownerships
 - 24/03/2021 ⏰

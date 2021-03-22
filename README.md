@@ -13,6 +13,9 @@
 2. [Hello world using **Cargo**](bin/hello-world-using-cargo/CARGO.md)
 3. [Guessing Game](bin/guessing-game/src/main.rs)
 4. [Variables and Mutability](bin/variables-mutability/VARIABLES.md)
+5. [Datatypes](bin/data-types/DATATYPES.md)
+6. [Functions](bin/functions/FUNCTIONS.md)
 
 ## Miscellaneous
+
 - [My TODO](bin/TODO.md)
