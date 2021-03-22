@@ -15,6 +15,7 @@
 4. [Variables and Mutability](bin/variables-mutability/VARIABLES.md)
 5. [Datatypes](bin/data-types/DATATYPES.md)
 6. [Functions](bin/functions/FUNCTIONS.md)
+7. [Control Flow](bin/control-flow/CONTROLFLOW.md)
 
 ## Miscellaneous
 
