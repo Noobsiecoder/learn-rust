@@ -13,48 +13,47 @@ cargo --version
 
 - To create a new boilerplate of rust program, we run :
 
-```bash
-# Git files won’t be generated if you run cargo new within an existing Git repository
-cargo new <app_name>
-cd <app_name>
-```
+  ```bash
+  # Git files won’t be generated if you run cargo new within an existing Git repository
+  cargo new <app_name>
+  cd <app_name>
+  ```
 
 ## Building and running a Cargo Project
 
 - To build :
 
-```bash
-# This will build and store the ".exe" file in "/target/debug/"
-cargo build
-```
+  ```bash
+  # This will build and store the ".exe" file in "/target/debug/"
+  cargo build
+  ```
 
 - To run the `<file_name>.exe` file :
 
-```bash
-./target/debug/<file_name>.exe
-```
+  ```bash
+  ./target/debug/<file_name>.exe
+  ```
 
 - To compile and run :
 
-```bash
-cargo run
-```
+  ```bash
+  cargo run
+  ```
 
 - Cargo also provides a command called cargo check. This command quickly checks your code to make sure it compiles but doesn’t produce an executable :
 
-```bash
-cargo check
-```
+  ```bash
+  cargo check
+  ```
 
 - If building for production for better optimized app usage, use :
 
-```bash
-cargo build --release
-```
+  ```bash
+  cargo build --release
+  ```
 
 ---
 
 ### Code
 
 [Click here](src/main.rs)
-

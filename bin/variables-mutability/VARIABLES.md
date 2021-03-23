@@ -2,26 +2,26 @@
 
 - Consider the following code :
 
-```rust
-fn main() {
- let x = 5;
- println!("The value of x is {}", x); // 5
- x = 12; // Error occures here, won't compile
- println!("The value of x is: {}", x);
-}
-```
+  ```rust
+  fn main() {
+  let x = 5;
+  println!("The value of x is {}", x); // 5
+  x = 12; // Error occures here, won't compile
+  println!("The value of x is: {}", x);
+  }
+  ```
 
 - In Rust, all variables are considered to be immutable.
-- To change them during run-time, we use the keyword _"mut"_ :
+- To change them during run-time, we use the keyword `mut` :
 
-```rust
-fn main() {
- let mut x = 5;
- println!("The value of x is {}", x); // 5
- x = 12; // No error occurs
- println!("The value of x is: {}", x); // 12
-}
-```
+  ```rust
+  fn main() {
+  let mut x = 5;
+  println!("The value of x is {}", x); // 5
+  x = 12; // No error occurs
+  println!("The value of x is: {}", x); // 12
+  }
+  ```
 
 ## Difference b/w `const` and `mut`
 
@@ -39,24 +39,25 @@ fn main() {
 
 - Consider the code :
 
-```rust
-fn main() {
-    let x = 5;
-    let x = 12; // Variable is being shadowed
-    println!("The value is {}", x);
-}
-```
+  ```rust
+  fn main() {
+      let x = 5;
+      let x = 12; // Variable is being shadowed
+      println!("The value is {}", x);
+  }
+  ```
 
 - From the following, the first variable is being shadowed.
 - By doing this, we also change the data type during run time. For example :
-```rust
-fn main() {
-    let y = 12; // Number
-    let y = "John"; // String
-    println!("The value of y is {}", y); // "John"
 
-    let mut data = 12;
-    data = "John"; // Cannot be converted to string
-}
+  ```rust
+  fn main() {
+      let y = 12; // Number
+      let y = "John"; // String
+      println!("The value of y is {}", y); // "John"
 
-```
+      let mut data = 12;
+      data = "John"; // Cannot be converted to string
+  }
+
+  ```

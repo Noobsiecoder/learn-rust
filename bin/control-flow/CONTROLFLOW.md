@@ -6,51 +6,51 @@
 
 - `if` condition is used to run a block of code when the condition is true
 
-```rust
-fn main() {
-    let number = 3;
-    // Condition must always be enclosed inside a bracket even if it is a one-line statement
-    if number < 5 {
-        println!("Condition is true!");
-    } else {
-        println!("Condition is false");
-    }
-    // Prints "Condition is true!"
-}
-```
+  ```rust
+  fn main() {
+      let number = 3;
+      // Condition must always be enclosed inside a bracket even if it is a one-line statement
+      if number < 5 {
+          println!("Condition is true!");
+      } else {
+          println!("Condition is false");
+      }
+      // Prints "Condition is true!"
+  }
+  ```
 
 - In JavaScript, strings evaluate to `true`, in rust :
 
-```rust
-/*
- * The compiler will show an error
- * It will state that :- expected `bool`, found `&str`
- */
-fn main() {
-    if ("true") {
-        println!("How?");
-    } else {
-        println!("How again?");
-    }
-}
-```
+  ```rust
+  /*
+  * The compiler will show an error
+  * It will state that :- expected `bool`, found `&str`
+  */
+  fn main() {
+      if ("true") {
+          println!("How?");
+      } else {
+          println!("How again?");
+      }
+  }
+  ```
 
 - To combine more than 1 `if` condition, we can use `else if` :
 
-```rust
-fn main() {
-    let number = 6;
+  ```rust
+  fn main() {
+      let number = 6;
 
-    // Checks the remainder
-    if number % 4 == 0 {
-        println!("Number is divisible by 4");
-    } else if number % 3 == 0 {
-        println!("Number is divisible by 3");
-    } else {
-        println!("Number is not divisible by 4 or 3");
-    } // Prints "Number is divisible by 3"
-}
-```
+      // Checks the remainder
+      if number % 4 == 0 {
+          println!("Number is divisible by 4");
+      } else if number % 3 == 0 {
+          println!("Number is divisible by 3");
+      } else {
+          println!("Number is not divisible by 4 or 3");
+      } // Prints "Number is divisible by 3"
+  }
+  ```
 
 ## Using `if` in `let` statement
 
@@ -122,45 +122,45 @@ fn main() {
 
 1. `while` loop :
 
-```rust
-fn main() {
-    let arr: [i8; 5] = [1, 2, 3, 4, 5];
-    let mut index = 0; // Since array index starts from 0
-    while index < arr.len() {
-        println!("The value of a[{}] = {}", index, arr[index]);
-        index += 1;
-    }
-    /*
-     * Output :-
-     * The value of a[0] = 1
-     * The value of a[1] = 2
-     * The value of a[2] = 3
-     * The value of a[3] = 4
-     * The value of a[4] = 5
-    */
-}
-```
+   ```rust
+   fn main() {
+       let arr: [i8; 5] = [1, 2, 3, 4, 5];
+       let mut index = 0; // Since array index starts from 0
+       while index < arr.len() {
+           println!("The value of a[{}] = {}", index, arr[index]);
+           index += 1;
+       }
+       /*
+       * Output :-
+       * The value of a[0] = 1
+       * The value of a[1] = 2
+       * The value of a[2] = 3
+       * The value of a[3] = 4
+       * The value of a[4] = 5
+       */
+   }
+   ```
 
 2. `for` loop :
 
-```rust
-fn main() {
-    let arr: [i8; 5] = [1, 2, 3, 4, 5];
-    let mut index = 0; // Since array index starts from 0
-    for element in arr.iter() {
-        println!("The value of a[{}] = {}", index, element);
-        index += 1;
-    }
-    /*
-     * Output :-
-     * The value of a[0] = 1
-     * The value of a[1] = 2
-     * The value of a[2] = 3
-     * The value of a[3] = 4
-     * The value of a[4] = 5
-     */
-}
-```
+   ```rust
+   fn main() {
+       let arr: [i8; 5] = [1, 2, 3, 4, 5];
+       let mut index = 0; // Since array index starts from 0
+       for element in arr.iter() {
+           println!("The value of a[{}] = {}", index, element);
+           index += 1;
+       }
+       /*
+       * Output :-
+       * The value of a[0] = 1
+       * The value of a[1] = 2
+       * The value of a[2] = 3
+       * The value of a[3] = 4
+       * The value of a[4] = 5
+       */
+   }
+   ```
 
 ## Miscellaneous
 
