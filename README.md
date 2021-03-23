@@ -16,6 +16,7 @@
 5. [Datatypes](bin/data-types/DATATYPES.md)
 6. [Functions](bin/functions/FUNCTIONS.md)
 7. [Control Flow](bin/control-flow/CONTROLFLOW.md)
+8. [Ownership](bin/ownership/OWNERSHIP.md)
 
 ## 📦 Miscellaneous
 

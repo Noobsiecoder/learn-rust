@@ -11,7 +11,7 @@
   - [x] Functions
   - [x] Control flow
 - Tuesday [23/03/2021] ⌚
-  - [ ] Ownerships
+  - [x] Ownerships
 - Wednesday [24/03/2021] ⏰
   - [ ] Structs
 - Thursday [25/03/2021] ⌚
