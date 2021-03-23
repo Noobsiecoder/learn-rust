@@ -17,6 +17,6 @@
 6. [Functions](bin/functions/FUNCTIONS.md)
 7. [Control Flow](bin/control-flow/CONTROLFLOW.md)
 
-## Miscellaneous
+## 📦 Miscellaneous
 
 - [My TODO](bin/TODO.md)
