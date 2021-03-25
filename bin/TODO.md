@@ -15,7 +15,7 @@
 - Wednesday [24/03/2021] ⏰
   - [x] Structs
 - Thursday [25/03/2021] ⌚
-  - [ ] Enums
+  - [x] Enums
 - Friday [26/03/2021] ⏰
   - [ ] Managing growing projects
 - Saturday [27/03/2021] ⌚
