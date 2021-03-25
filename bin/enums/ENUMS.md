@@ -182,6 +182,35 @@ fn main() {
 }
 ```
 
+## Enums with if let
+
+- The **if let syntax** lets you combine `if` and `let` into a less verbose way to handle values that match one pattern while ignoring the rest.
+
+  ```rust
+  #[derive(Debug)]
+  enum Employee {
+      Engineer,
+      _Salesman,
+      _Designer,
+  }
+
+  fn match_enum(employee: Employee) {
+      if let Employee::Engineer = employee {
+          println!("Engineer it is!");
+      }
+      if let Employee::_Salesman = employee {
+          println!("Designer it is!");
+      }
+      if let Employee::_Designer = employee {
+          println!("Designer it is!");
+      }
+  }
+
+  fn main() {
+      match_enum(Employee::Engineer); // Engineer it is!
+  }
+  ```
+
 ## Enums with data types
 
 ```rust
