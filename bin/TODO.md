@@ -13,7 +13,7 @@
 - Tuesday [23/03/2021] ⌚
   - [x] Ownerships
 - Wednesday [24/03/2021] ⏰
-  - [ ] Structs
+  - [x] Structs
 - Thursday [25/03/2021] ⌚
   - [ ] Enums
 - Friday [26/03/2021] ⏰
