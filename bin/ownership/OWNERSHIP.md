@@ -61,15 +61,15 @@
 
   ```rust
   fn foo(string: &str) {
-      println!("{:p}", string); // Prints the same memory adddress of variable allocated
+      println!("{:p}", string); // Prints the same memory address of variable allocated
   }
 
   fn main() {
       // string literal
       let string = "Hello, World!";
-      println!("{:p}", string); // Prints the memory adddress of variable allocated
+      println!("{:p}", string); // Prints the memory address of variable allocated
       foo(string);
-      println!("{:p}", string); // Prints the same memory adddress of variable allocated
+      println!("{:p}", string); // Prints the same memory address of variable allocated
   }
   ```
 
@@ -79,13 +79,13 @@
 
   ```rust
   fn foo(string: String) {
-      println!("{:p}", string.as_ptr()); // Prints the same memory adddress of variable allocated
+      println!("{:p}", string.as_ptr()); // Prints the same memory address of variable allocated
   }
 
   fn main() {
       // String type
       let string = String::from("Hello, World!");
-      println!("{:p}", string.as_ptr()); // Prints the memory adddress of variable allocated
+      println!("{:p}", string.as_ptr()); // Prints the memory address of variable allocated
       foo(string);
       println!("{:p}", string.as_ptr()); // Error occurs here
   }
@@ -104,7 +104,7 @@
       let string = String::from("Hello, World!");
       println!("{:p}", string.as_ptr()); // 0xbc22c0
       foo(string.clone());
-      println!("{:p}", string.as_ptr()); // 0xbc22e0
+      println!("{:p}", string.as_ptr()); // 0xbc22c0
   }
   ```
 
