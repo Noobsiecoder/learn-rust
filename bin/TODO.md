@@ -28,6 +28,7 @@
   - [ ] Generic types, traits and lifetimes 
 - Saturday [28/03/2021] ⏰
   - [ ] Writing automated tests
+  - [ ] File handling
 
 ### To be decided later
 
