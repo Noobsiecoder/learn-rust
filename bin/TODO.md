@@ -1,7 +1,8 @@
 # Timeline to be followed
 
 ## Week 1
-- Sunday [21/03/2021] ✅ 
+
+- Sunday [21/03/2021] ✅
   - [x] Hello World without _cargo_
   - [x] Hello world using _cargo_
   - [x] Guessing Game
@@ -16,12 +17,18 @@
   - [x] Structs
 - Thursday [25/03/2021] ⌚
   - [x] Enums
-- Friday [26/03/2021] ⏰
+
+## Week 2
+
+- Thursday [29/03/2021] ⏰
   - [ ] Managing growing projects
-- Saturday [27/03/2021] ⌚
-  - [ ] Common collections 
-- Sunday [28/03/2021] ⏰
-  - [ ]  Error Handling
+  - [ ] Common collections
+- Friday [27/03/2021] ⌚
+  - [ ] Error Handling
+  - [ ] Generic types, traits and lifetimes 
+- Saturday [28/03/2021] ⏰
+  - [ ] Writing automated tests
 
 ### To be decided later
+
 ---
