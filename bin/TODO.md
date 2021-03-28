@@ -7,15 +7,15 @@
   - [x] Hello world using _cargo_
   - [x] Guessing Game
   - [x] Variables and Mutability
-- Monday [22/03/2021] ⏰
+- Monday [22/03/2021] ✅
   - [x] Data types
   - [x] Functions
   - [x] Control flow
-- Tuesday [23/03/2021] ⌚
+- Tuesday [23/03/2021] ✅
   - [x] Ownerships
-- Wednesday [24/03/2021] ⏰
+- Wednesday [24/03/2021] ✅
   - [x] Structs
-- Thursday [25/03/2021] ⌚
+- Thursday [25/03/2021] ✅
   - [x] Enums
 
 ## Week 2
